@@ -6,10 +6,10 @@ export const StyledNavItem = styled.div`
     position: relative;
     padding: 16px 0px 14px;
     text-decoration: none;
-    color: rgba(255, 86, 0, 1);
+    color: ${({ theme }) => theme.colors.white};
     text-decoration: none;
-    font-family: Guillon, sans-serif;
-    font-weight: 600;
+    font-family ${({ theme }) => theme.fonts.primary};
+    font-weight: 500;
 
     &::before {
         content: "";
@@ -18,7 +18,6 @@ export const StyledNavItem = styled.div`
         height: 3px;
         bottom: 0px;
         left: 0px;
-        background-color: currentcolor;
         visibility: hidden;
         transition: all 0.2s ease-in-out 0s;
         transform: scaleX(0);

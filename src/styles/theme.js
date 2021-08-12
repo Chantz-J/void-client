@@ -5,11 +5,14 @@ const Theme = {
         white: '#F2F4F3',
         grey: '#BAC2E3',  
     },
+    fonts: {
+        primary: "'Sarabun', sans-serif"
+    },
     fontSizes: {
-        small: '',
-        medium: '',
-        large: '',
-        veryLarge: '',
+        small: '1rem;',
+        medium: '3rem',
+        large: '4rem',
+        veryLarge: '5rem',
     },
 };
 

@@ -7,7 +7,8 @@ import {
     LogoWrapper, 
     Navbar,
     NavWrapper } from './styles';
-// import NavItem from './NavItem';
+import GreenButton from '../Shared/buttons/GreenButton';
+import NavItem from './NavItem';
 
 
 export default function Header(){
@@ -16,12 +17,16 @@ export default function Header(){
             <Outer>
                 <Inner>
                     <LogoWrapper>
-                        <Link to='/'></Link>
+                        <Link to='/'>void.</Link>
                     </LogoWrapper>
                     <Navbar>
                         <NavWrapper>
-                            {/* <NavItem display={'Sign Up'}/>
-                            <NavItem display={'Sign In'}/> */}
+                            <NavItem display={'Articles'}/>
+                            <NavItem display={'Sign In'}/>
+                            <GreenButton 
+                                display={'Try for free'} 
+                                href={'/'}
+                            />
                         </NavWrapper> 
                     </Navbar>
                 </Inner>

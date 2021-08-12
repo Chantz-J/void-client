@@ -1,5 +1,8 @@
 // FLEX RULES
 export const flexRow = (jcRule, aiRule) => {
+    // Mixins JS style :p
+    // These arguments will need to be strings when the funciton is invoked
+    // These should be interpolated when used in styled-components
     return `display: flex; 
             justify-content: ${jcRule}; 
             align-items: ${aiRule};`;

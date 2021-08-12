@@ -1,6 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 
 const CSSResets = createGlobalStyle`
+
+    @import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+    
     * {
         margin: 0;
         padding: 0;
@@ -15,6 +18,13 @@ const CSSResets = createGlobalStyle`
     }
 
     /* Remove default margin */
+
+    html,
+    body {
+        font-size: 100%;
+        background-color: ${({ theme }) => theme.colors.veryDark};
+    }
+
     body,
     h1,
     h2,

@@ -7,15 +7,16 @@ export const Wrapper = styled.header`
     top: 0px;
     width: 100%;
     padding: 16px 0px;
-    border-bottom: 1px solid rgb(237, 242, 249);
+    color: ${({ theme }) => theme.colors.white};
+    border-bottom: 1px solid ${({ theme }) => theme.colors.dark};
     backdrop-filter: saturate(180%) blur(20px);
     background-color: rgba(20, 22, 26, 0.7);
-    color: ${({ theme }) => theme.colors.white};
 `;
 
 export const Outer = styled.div`
     width: 100%;
-    max-width: 1140px;
+    max-width: 1740px;
+    padding-top: 20px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -27,7 +28,14 @@ export const Inner = styled.div`
 `;
 
 export const LogoWrapper = styled.div`
-    color: rgb(29, 25, 41);
+    color: ${({ theme }) => theme.colors.white};
+    a {
+        color: ${({ theme }) => theme.colors.white};
+        font-size: ${({ theme }) => theme.fontSizes.small};
+        font-family: ${({ theme }) => theme.fonts.primary};
+        text-decoration: none;
+        letter-spacing: .5rem;
+    }
 `;
 
 export const Navbar = styled.nav`
@@ -35,7 +43,6 @@ export const Navbar = styled.nav`
     opacity: 1;
     display: inline-block;
     font-size: 16px;
-    font-family: Poppins;
     color: ${({ theme }) => theme.colors.white};
 `;
 

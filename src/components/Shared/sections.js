@@ -15,7 +15,7 @@ export const Section = styled.section`
         color: ${({ theme }) => theme.colors.white};
         font-size: ${({ theme }) => theme.fontSizes.veryLarge};
         font-family: ${({ theme }) => theme.fonts.primary};
-        font-weight: 200;
+        font-weight: 700;
         line-height: 1.2;
         margin-bottom: 40px;
     }

@@ -20,7 +20,7 @@ export const FButton = styled(Link)`
         transition: all 2s ease-in-out;
     }
 `;
-
+ 
 export default function FadedButton({ display, href }){
     return (
         <FButton to={href}>

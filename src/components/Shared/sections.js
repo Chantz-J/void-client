@@ -4,7 +4,7 @@ import { flexColumn } from '../../styles/mixins'
 export const Section = styled.section`
     ${flexColumn('center', 'center')}
     text-align: center;
-    padding: 308px 0px 0px;
+    padding: 458px 0px 0px;
     width: 100%;
     max-width: 1140px;
     padding-right: 15px;
@@ -17,9 +17,10 @@ export const Section = styled.section`
         color: ${({ theme }) => theme.colors.white};
         font-size: ${({ theme }) => theme.fontSizes.large};
         font-family: ${({ theme }) => theme.fonts.primary};
-        font-weight: 700;
+        font-weight: 600;
         line-height: 1.2;
         margin-bottom: 40px;
+        z-index: 1;
     }
     
 `;

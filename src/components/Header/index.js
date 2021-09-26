@@ -7,7 +7,7 @@ import {
     LogoWrapper, 
     Navbar,
     NavWrapper } from './styles';
-import GreenButton from '../Shared/buttons/GreenButton';
+// import ClearButton from '../Shared/buttons/ClearButton';
 import NavItem from './NavItem';
 
 

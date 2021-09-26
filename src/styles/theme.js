@@ -3,10 +3,11 @@ const Theme = {
         dark: '#1F232C',
         veryDark: '#14161A',
         white: '#F2F4F3',
-        grey: '#BAC2E3',  
+        grey: '#BAC2E3',
+        blue: '#0044FF'  
     },
     fonts: {
-        primary: "'Sarabun', sans-serif"
+        primary: "'Poppins', sans-serif;"
     },
     fontSizes: {
         small: '1rem;',

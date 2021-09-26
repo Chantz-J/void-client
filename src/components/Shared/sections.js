@@ -2,6 +2,8 @@ import styled from 'styled-components'
 import { flexColumn } from '../../styles/mixins'
 
 export const Section = styled.section`
+    ${flexColumn('center', 'center')}
+    text-align: center;
     padding: 308px 0px 0px;
     width: 100%;
     max-width: 1140px;
@@ -13,19 +15,13 @@ export const Section = styled.section`
 
     h1 {
         color: ${({ theme }) => theme.colors.white};
-        font-size: ${({ theme }) => theme.fontSizes.veryLarge};
+        font-size: ${({ theme }) => theme.fontSizes.large};
         font-family: ${({ theme }) => theme.fonts.primary};
         font-weight: 700;
         line-height: 1.2;
         margin-bottom: 40px;
     }
-    h2 {
-        color: ${({ theme }) => theme.colors.grey};
-        font-size: ${({ theme }) => theme.fontSizes.small};
-        font-family: ${({ theme }) => theme.fonts.primary};
-        font-weight: 200;
-        margin-bottom: 40px;
-    }
+    
 `;
 
 export const MiddleSection = styled.div`

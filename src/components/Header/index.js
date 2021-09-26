@@ -23,10 +23,10 @@ export default function Header(){
                         <NavWrapper>
                             <NavItem display={'Articles'}/>
                             <NavItem display={'Sign In'}/>
-                            <GreenButton 
+                            {/* <GreenButton 
                                 display={'Try for free'} 
                                 href={'/'}
-                            />
+                            /> */}
                         </NavWrapper> 
                     </Navbar>
                 </Inner>

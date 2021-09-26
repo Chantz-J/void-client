@@ -1,28 +1,13 @@
 import styled from 'styled-components';
+// import { Link } from 'react-router-dom'
+import { flexRow } from '../../styles/mixins';
 
 
 export const FooterWrapper = styled.footer`
+    background: ${({ theme }) => theme.colors.dark};
     position: relative;
-    background-color: ${({ theme }) => theme.colors.dark};
+    z-index: 3;
+    overflow: hidden;
+    width: 100%;
 `;
 
-export const FooterTop = styled.div`
-    padding: 70px 15px;
-`;
-
-export const FooterTopInner = styled.div`
-    display: flex;
-    justify-content: space-between;
-`;
-
-export const FooterLeft = styled.div`
-    flex: 1;
-`;
-
-export const FooterHeadline = styled.h2`
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 35px;
-    color: ${({ theme }) => theme.colors.white};
-    font-family: ${({ theme }) => theme.fonts.primary};
-`;

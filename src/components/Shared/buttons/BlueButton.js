@@ -8,9 +8,8 @@ export const BButton = styled(Link)`
     color: ${({ theme }) => theme.colors.veryDark};
     font-family: ${({ theme }) => theme.fonts.primary};
     font-size: ${({ theme }) => theme.fontSizes.small};
-    font-weight: 700;
+    font-weight: 600;
     padding: .75rem;
-    margin-top: 20px;
     border-radius: .375rem;
     text-decoration: none;
 `;

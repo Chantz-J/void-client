@@ -1,12 +1,11 @@
 import styled from 'styled-components'
 import { flexRow } from '../.././styles/mixins'
 
-export const Wrapper = styled.header`
+export const Wrapper = styled.header` 
     z-index: 10;
     position: fixed;
     top: 0px;
     width: 100%;
-    padding: 16px 0px;
     color: ${({ theme }) => theme.colors.white};
     border-bottom: 1px solid ${({ theme }) => theme.colors.dark};
     backdrop-filter: saturate(180%) blur(20px);
@@ -16,9 +15,7 @@ export const Wrapper = styled.header`
 export const Outer = styled.div`
     width: 100%;
     max-width: 1740px;
-    padding-top: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 5px 10px;
     margin-right: auto;
     margin-left: auto;
 `;
